@@ -6,12 +6,13 @@ I am a fan of Python rather than R. But I have to admit that for linear regressi
 Unfortunately there are very limited "complete" references in Chinese for this field. Some of the documents are even wrong. 
 
 A complete linear model with R should compose these parts:
-1. Linear Regression(Single linear regression or Multi linear regression). 
+
+Part1. Linear Regression(Single linear regression or Multi linear regression). 
 For here, that is just a problem of solving linear equation systems. We could use theories from linear algebra(From Cramer's rule to Gauss elimination, there are a lot of methods) or Newton's Method from optimization theory(Not from physics) to calculate it.
 
 Then you need to implement t-test for signle feature and F-test for the whole system. If it really works(p-value is less than 0.05) you could continue.
 
-2. Model Diagnostics.
+Part2. Model Diagnostics.
 All the linear models are based on the coming five hypothesis:
 
 • Normal i.i.d. errors
@@ -34,7 +35,7 @@ https://blog.csdn.net/qq_35837578/article/details/88357551
 Link to Julian Faraway's book:
 http://www.utstat.toronto.edu/~brunner/books/LinearModelsWithR.pdf
 
-3. Model Transformation
+Part3. Model Transformation
 You could use a lot of model transformation to improve the model. 
 
 That may include but not exclude to:
