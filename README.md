@@ -22,7 +22,7 @@ So you need to test it. You could start from Diagnostics-plot(This article is wr
 
 In this project I will give you another detailed summary on this! It is hard, but don't worry, this is a well-established field.
 
-My summary:
+My summary（中文）:
 https://blog.csdn.net/qq_35837578/article/details/88357551
 
 Link to Julian Faraway's book:
