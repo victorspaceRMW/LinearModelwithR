@@ -13,11 +13,17 @@ Then you need to implement t-test for signle feature and F-test for the whole sy
 
 2. Model Diagnostics.
 All the linear models are based on the coming five hypothesis:
+
 • Normal i.i.d. errors
+
 • Constant error variance
+
 • Absence of influential cases
+
 • Linear relationship between predictors and outcome variable
+
 • Collinearity
+
 So you need to test it. You could start from Diagnostics-plot(This article is written by me in Chinese, for English version, refer to the book of Julian Faraway, former professor of Univ Michigan and now UBath in England, Linear Model with R or something related).
 
 In this project I will give you another detailed summary on this! It is hard, but don't worry, this is a well-established field.
@@ -32,12 +38,19 @@ http://www.utstat.toronto.edu/~brunner/books/LinearModelsWithR.pdf
 You could use a lot of model transformation to improve the model. 
 
 That may include but not exclude to:
+
 1. Box-Cox(Model Transformation)
+
 2. Log-Transformation(Model Transformation)
+
 3. AIC/BIC/Cp/Adjusted-R^2(Model Selection)
+
 4. LASSO
+
 5. Ridge Regression
+
 6. Elastic Net
+
 ...
 
 But beware of the overfitting problem!
